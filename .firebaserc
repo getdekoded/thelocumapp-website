@@ -1,0 +1,20 @@
+{
+  "projects": {
+    "default": "spaces-todo"
+  },
+  "targets": {
+    "spaces-todo": {
+      "hosting": {
+        "prod": [
+          "thelocumapp-prod"
+        ],
+        "staging": [
+          "thelocumapp-stage"
+        ],
+        "thelocumapp-dev": [
+          "thelocumapp-dev"
+        ]
+      }
+    }
+  }
+}
